@@ -8,7 +8,6 @@ lib/
 msg_gen/
 srv_gen/
 ROS_NOBUILD
-CATKIN_IGNORE
 bags/
 
 *Action.msg
