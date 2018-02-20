@@ -21,6 +21,9 @@ include_directories(
 
 catkin_python_setup()
 
+install(DIRECTORY launch
+  DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
+)
 
 if (CATKIN_ENABLE_TESTING)
   find_package(rostest REQUIRED)
