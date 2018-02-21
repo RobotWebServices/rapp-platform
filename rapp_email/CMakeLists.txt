@@ -21,7 +21,7 @@ include_directories(
 
 catkin_python_setup()
 
-install(DIRECTORY launch
+install(DIRECTORY cfg launch
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
 
