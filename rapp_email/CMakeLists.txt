@@ -21,7 +21,7 @@ include_directories(
 
 catkin_python_setup()
 
-catkin_install_python(PROGRAMS src/rapp_email/email_sender.py
+catkin_install_python(PROGRAMS src/rapp_email/email_node.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 
 install(DIRECTORY cfg launch
